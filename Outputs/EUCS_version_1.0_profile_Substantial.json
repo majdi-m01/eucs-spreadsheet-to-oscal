@@ -1,0 +1,134 @@
+{
+  "profile": {
+    "uuid": "74c8ba1e-5cd4-4ad1-bbfd-d888e2f6c724",
+    "metadata": {
+      "title": "Sample EUCS Catalog",
+      "published": "2024-09-18T12:54:42.175318+02:00",
+      "last-modified": "2024-09-18T12:54:42.175318+02:00",
+      "version": "1.0",
+      "oscal-version": "1.1.2",
+      "props": [
+        {
+          "name": "keywords",
+          "value": "cybersecurity, information security, information system, OSCAL, Open Security Controls Assessment Language"
+        }
+      ],
+      "links": [
+        {
+          "href": "3ab41d8a-66e3-4732-ae28-07405dad5127",
+          "rel": "alternate"
+        }
+      ],
+      "roles": [
+        {
+          "id": "publisher",
+          "title": "Source document converter to OSCAL."
+        },
+        {
+          "id": "author",
+          "title": "Source document author."
+        },
+        {
+          "id": "contact",
+          "title": "Contact."
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "f550d94e-0f01-415f-a1e2-c8188c9ff4a5",
+          "type": "organization",
+          "name": "ENISA",
+          "email-addresses": [
+            "name@domain.eu"
+          ],
+          "addresses": [
+            {
+              "addr-lines": [
+                "ENISA",
+                "Attn: Somebody",
+                "1 Some Street"
+              ],
+              "city": "City",
+              "country": "EU"
+            }
+          ]
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "publisher",
+          "party-uuids": [
+            "f550d94e-0f01-415f-a1e2-c8188c9ff4a5"
+          ]
+        },
+        {
+          "role-id": "author",
+          "party-uuids": [
+            "f550d94e-0f01-415f-a1e2-c8188c9ff4a5"
+          ]
+        },
+        {
+          "role-id": "contact",
+          "party-uuids": [
+            "f550d94e-0f01-415f-a1e2-c8188c9ff4a5"
+          ]
+        }
+      ],
+      "remarks": "The following is a short excerpt from EUCS Catalog. This work is provided here under copyright fair use for non-profit, educational purposes only. Copyrights for this work are held by the publisher."
+    },
+    "imports": [
+      {
+        "href": "EUCS_controls_version_1.1_catalog.json",
+        "include-controls": [
+          {
+            "with-ids": [
+              "OIS-01.1S",
+              "OIS-01.2S",
+              "OIS-01.3S",
+              "OIS-02.1S",
+              "OIS-02.2S",
+              "OIS-02.3S",
+              "OIS-02.4S",
+              "OIS-02.5S",
+              "OIS-03.1S",
+              "OIS-04.1S",
+              "ISP-01.1S",
+              "ISP-01.2S",
+              "ISP-01.3S",
+              "ISP-01.4S",
+              "ISP-02.1S",
+              "ISP-02.2S",
+              "ISP-02.3S",
+              "ISP-02.4S",
+              "ISP-02.5S",
+              "ISP-02.6S",
+              "ISP-02.7S",
+              "ISP-03.1S",
+              "ISP-03.2S",
+              "ISP-03.3S",
+              "ISP-03.4S",
+              "ISP-03.5S",
+              "ISP-03.6S",
+              "ISP-03.7S",
+              "RM-01.1S",
+              "RM-02.1S",
+              "RM-02.2S",
+              "RM-02.3S",
+              "RM-02.4S",
+              "RM-02.5S",
+              "RM-03.1S",
+              "RM-03.2S",
+              "RM-03.3S",
+              "RM-03.4S",
+              "RM-03.5S",
+              "RM-03.6S",
+              "RM-03.7S",
+              "RM-03.8S",
+              "RM-03.9S"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
