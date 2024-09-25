@@ -4,6 +4,10 @@ This Python script is designed to convert an EUCS controls spreadsheet into cata
 
 ---
 
+### Possible to use OSCAL viewer by uploading JSON file
+
+https://viewer.oscal.io/
+
 ### Script Overview
 
 - **Purpose**: The script reads an EUCS controls spreadsheet, categorizes the controls by severity (Basic, Substantial, High), and outputs the results as OSCAL catalogs and profiles. The output is intended for cybersecurity and information security purposes, providing structured, machine-readable data.
